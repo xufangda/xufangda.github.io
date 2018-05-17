@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FANGDA</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.xufangda.com/"/>
+  <updated>2018-05-17T15:21:55.404Z</updated>
+  <id>http://www.xufangda.com/</id>
+  
+  <author>
+    <name>FANGDA</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开张了</title>
+    <link href="http://www.xufangda.com/2018/05/17/%E5%BC%80%E5%BC%A0%E4%BA%86/"/>
+    <id>http://www.xufangda.com/2018/05/17/开张了/</id>
+    <published>2018-05-17T15:12:42.000Z</published>
+    <updated>2018-05-17T15:21:55.404Z</updated>
+    
+    <content type="html"><![CDATA[<p>这就是测试一下MarkDown怎么写。</p><p>据说这是一个新的段落哦</p><h1 id="据说这是大标题"><a href="#据说这是大标题" class="headerlink" title="据说这是大标题"></a>据说这是大标题</h1><h2 id="然后小标题？"><a href="#然后小标题？" class="headerlink" title="然后小标题？"></a>然后小标题？</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这就是测试一下MarkDown怎么写。&lt;/p&gt;
+&lt;p&gt;据说这是一个新的段落哦&lt;/p&gt;
+&lt;h1 id=&quot;据说这是大标题&quot;&gt;&lt;a href=&quot;#据说这是大标题&quot; class=&quot;headerlink&quot; title=&quot;据说这是大标题&quot;&gt;&lt;/a&gt;据说这是大标题&lt;/h1&gt;&lt;h2 id=
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
