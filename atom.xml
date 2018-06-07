@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.xufangda.com/"/>
-  <updated>2018-06-07T14:09:09.789Z</updated>
+  <updated>2018-06-07T14:11:59.259Z</updated>
   <id>http://www.xufangda.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.xufangda.com/2018/06/07/Use-pipenv-to-create-a-env-under-your-project-folder/"/>
     <id>http://www.xufangda.com/2018/06/07/Use-pipenv-to-create-a-env-under-your-project-folder/</id>
     <published>2018-06-07T13:53:35.000Z</published>
-    <updated>2018-06-07T14:09:09.789Z</updated>
+    <updated>2018-06-07T14:11:59.259Z</updated>
     
-    <content type="html"><![CDATA[<p>People who use <a href="https://github.com/pypa/pipenv" target="_blank" rel="noopener">pipenv</a> may be struggling on how to install their venv under current project folder, especially for people who use pipenv under windows like me. </p><p>There is a trick here. </p><p>If you create a folder named “.venv” under your project folder, then when you type in pipenv install, pipenv will install environment under the “.venv” folder instead of default directory in C:\.</p><blockquote><ol><li>Create a folder named “.venv” under your project folder</li><li>Type in “pipenv install”</li><li>You will see python environment installed in “.venv”</li></ol></blockquote><p>In addition, the author is kind enough that he will add a new “–local” directory in the next release to support people to do so. Please refer to (<a href="https://github.com/pypa/pipenv/issues/2086)" target="_blank" rel="noopener">https://github.com/pypa/pipenv/issues/2086)</a>.</p><p>I have been struggling using pipenv under windows. </p>]]></content>
+    <content type="html"><![CDATA[<p>People who use <a href="https://github.com/pypa/pipenv" target="_blank" rel="noopener">pipenv</a> may be struggling on how to install their venv under current project folder, especially for people who use pipenv under windows like me. </p><p>There is a trick here. </p><p>If you create a folder named “.venv” under your project folder, then when you type in pipenv install, pipenv will install environment under the “.venv” folder instead of default directory in C:\.</p><blockquote><p><strong>1. Create a folder named “.venv” under your project folder</strong><br><strong>2. Type in “pipenv install”</strong><br><strong>3. You will see python environment installed in “.venv”</strong></p></blockquote><p>In addition, the author is kind enough that he will add a new “–local” directory in the next release to support people to do so. Please refer to <a href="https://github.com/pypa/pipenv/issues/2086" target="_blank" rel="noopener">https://github.com/pypa/pipenv/issues/2086</a>.</p><p>I have been struggling using pipenv under windows. </p>]]></content>
     
     <summary type="html">
     
