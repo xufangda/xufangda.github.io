@@ -298,6 +298,168 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.xufangda.com/2018/06/07/Use-pipenv-to-create-a-env-in-your-project-folder/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="FANGDA">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="FANGDA">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/07/Use-pipenv-to-create-a-env-in-your-project-folder/" itemprop="url">
+                  Use pipenv to create a env in your project folder
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-06-07 14:53:35 / Modified: 15:05:37" itemprop="dateCreated datePublished" datetime="2018-06-07T14:53:35+01:00">2018-06-07</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/06/07/Use-pipenv-to-create-a-env-in-your-project-folder/" class="leancloud_visitors" data-flag-title="Use pipenv to create a env in your project folder">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Views: </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>People who use <a href="https://github.com/pypa/pipenv" target="_blank" rel="noopener">pipenv</a> may be struggling on how to install their venv under current project folder, especially for people who use pipenv under windows like me. </p>
+<p>There is a trick here. </p>
+<p>If you create a folder named “.venv” under your project folder, then when you type in pipenv install, pipenv will install environment under the “.venv” folder instead of default directory in C:\.</p>
+<blockquote>
+<ol>
+<li>Create a folder named “.venv” under your project folder</li>
+<li>Type in “pipenv install”</li>
+<li>You will see python environment installed in “.venv”</li>
+</ol>
+</blockquote>
+<p>In addition, the author is kind enough that he will add a new “–local” directory in the next release to support people to do so. Please refer to (<a href="https://github.com/pypa/pipenv/issues/2086)" target="_blank" rel="noopener">https://github.com/pypa/pipenv/issues/2086)</a>.</p>
+<p>I have been struggling using pipenv under windows. </p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.xufangda.com/2018/05/17/Don-t-be-panic-Create-your-own-blog-in-10mins/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -829,7 +991,7 @@ hexo deploy
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -861,7 +1023,9 @@ hexo deploy
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">tags</span>
                   
                 </div>

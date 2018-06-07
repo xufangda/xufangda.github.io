@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.xufangda.com/"/>
-  <updated>2018-05-17T21:13:20.759Z</updated>
+  <updated>2018-06-07T14:05:37.311Z</updated>
   <id>http://www.xufangda.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Use pipenv to create a env in your project folder</title>
+    <link href="http://www.xufangda.com/2018/06/07/Use-pipenv-to-create-a-env-in-your-project-folder/"/>
+    <id>http://www.xufangda.com/2018/06/07/Use-pipenv-to-create-a-env-in-your-project-folder/</id>
+    <published>2018-06-07T13:53:35.000Z</published>
+    <updated>2018-06-07T14:05:37.311Z</updated>
+    
+    <content type="html"><![CDATA[<p>People who use <a href="https://github.com/pypa/pipenv" target="_blank" rel="noopener">pipenv</a> may be struggling on how to install their venv under current project folder, especially for people who use pipenv under windows like me. </p><p>There is a trick here. </p><p>If you create a folder named “.venv” under your project folder, then when you type in pipenv install, pipenv will install environment under the “.venv” folder instead of default directory in C:\.</p><blockquote><ol><li>Create a folder named “.venv” under your project folder</li><li>Type in “pipenv install”</li><li>You will see python environment installed in “.venv”</li></ol></blockquote><p>In addition, the author is kind enough that he will add a new “–local” directory in the next release to support people to do so. Please refer to (<a href="https://github.com/pypa/pipenv/issues/2086)" target="_blank" rel="noopener">https://github.com/pypa/pipenv/issues/2086)</a>.</p><p>I have been struggling using pipenv under windows. </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;People who use &lt;a href=&quot;https://github.com/pypa/pipenv&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;pipenv&lt;/a&gt; may be struggling on how to install the
+      
+    
+    </summary>
+    
+    
+      <category term="English, Python" scheme="http://www.xufangda.com/tags/English-Python/"/>
+    
+  </entry>
   
   <entry>
     <title>Don&#39;t be panic, Create your own blog in 10mins</title>
